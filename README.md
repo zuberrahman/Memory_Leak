@@ -5,9 +5,9 @@
 
 What are we doing?
 ------
-We will be feeding out model with dataset in the JSON format which is very easy to comprehend and edit (just like a simple word document).
+We will be feeding outr model with dataset in the JSON format which is very easy to comprehend and edit (just like a simple word document).
 
-Then we need to tokenize the text content from probabilistic prediction (for which we have used porter stemmer) during this we have ignored the stop words/common words like is,am,was etc.
+Then we tokenized the text content from probabilistic prediction (for which we have used porter stemmer) during this we have ignored the stop words/common words like is,am,was etc.
 
 Then with these tokenized words we create a bag of words which will be used to identify from the given query by user.
 
@@ -30,7 +30,7 @@ Features
 [Zuber Rahman](https://github.com/zuberrahman)
 :prince:
 
-[Riya S](https://github.com/Rrs-4817)
+[Riya Sisodia](https://github.com/Rrs-4817)
 :trollface:
 
 [Aditya Singh](https://github.com/As-anonymus)
