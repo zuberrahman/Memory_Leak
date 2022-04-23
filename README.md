@@ -13,6 +13,9 @@ Then with these tokenized words we create a bag of words which will be used to i
 
 Then we use of simple feed forward neural network with activation fiunction as relu to get the probabilistic output as a result.
 
+![image](https://user-images.githubusercontent.com/76949838/164884314-c0761442-4415-4d70-b812-c2f15206ac57.png)
+
+
 Features
 ------
 * Our chatbot uses minimal computer resources and computer memory in contrast to its competition which hogs computer heavy resources.
