@@ -3,7 +3,7 @@
 ### The problem statement which we are going to be working is a Chatbot – Legal, Tax and Compliance. 
 ### India’s largest professional platform VakilSearch where hundreds of new companies and entrepreneurs register to use their services everyday, we are creating a chatbot to assist those potential customers with their various doubts and questions which may inevitably arise while navigating Vakil Search for getting help for their Legal, Tax and Compliance Services.
 
-###What are we doing?
+What are we doing?
 ------
 We will be feeding out model with dataset in the JSON format which is very easy to comprehend and edit (just like a simple word document).
 
@@ -13,7 +13,7 @@ Then with these tokenized words we create a bag of words which will be used to i
 
 Then we use of simple feed forward neural network with activation fiunction as relu to get the probabilistic output as a result.
 
-###Features
+Features
 ------
 * Our chatbot uses minimal computer resources and computer memory in contrast to its competition which hogs computer heavy resources.
 * Our chatbot can be scaled to a very large extent and can be used on any website and it is completely free of cost whereas our competition only provides basic services for free and charges more for their premium services. 
