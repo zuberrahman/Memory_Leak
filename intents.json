@@ -1,0 +1,230 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey! Welcome to VakilSearch",
+        "Hello, Nice to meet you!",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon again."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is you name?","What can I call you?","Your name is?","What's your name?","What do I call you?"],
+      "responses": [
+        "My name is Stein",
+        "You can call me  Stein",
+        "I'm  Stein, a bot for all your needs!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure","No Worries!"]
+    },
+    {
+      "tag": "doubts",
+      "patterns": [
+        "I have a doubt",
+        "Can you help me",
+        "I have a query",
+        ""
+      ],
+      "responses": [
+        "Sure! Please choose the specific domain",
+        "Choose the option under which your query comes",
+        "Kindly tell me what issue are you facing?"
+      ]
+    },
+    {
+      "tag": "Confirmation",
+      "patterns": [
+        "Has my seat been confirmed?",
+        "When will I get the confirmation email?",
+        "How long does it take for the confirmation email?",
+        "Will the confirmation be sent to my mail or phone?"
+      ],
+      "responses": [
+        "Kindly Enter your email id or phone number that's mentioned in the form ?"
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "Is this a paid service?",
+        "Do I need to pay?",
+        "How much should i pay?",
+        "When do I pay?",
+        "How will I know if my payment is successful?"
+      ],
+      "responses": [
+        "For more details, refer to the link given below: https://vakilsearch.com/contact "
+      ]
+    },
+
+    {
+      "tag": "hours",
+      "patterns": [ "What hours are you open?", "What are your hours?", "When are you open?", "When is the time to contact ?", "At what time do you provide services ?" ],
+      "responses": [ "We're open every day from 9AM to 9PM", "Our working hours are 9AM to 9PM every day" ]
+  },
+  {
+      "tag": "location",
+      "patterns": [ "What is your location?", "Where are you located?", "What is your address?", "Where is your company situated?", "How can we contact you ?", "How can I contact you?" ],
+      "responses": [ "We are on BH-5, LPU", "Our company is situated in BH-5, LPU", "We work from BH-5 LPU", "Our location is BH-5 LPU"]
+  },
+  {
+      "tag": "payments",
+      "patterns": [ "Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?", "Which credit cards do you accept?" ],
+      "responses": [ "We accept VISA, Mastercard and AMEX", "We accept most major credit cards" ]
+  },
+
+
+  {
+    "tag": "AI",
+    "patterns": ["  What is AI?"],
+    "responses": [" Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think.", " AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."],
+    "context": [""]
+},
+{"tag": "IT",
+    "patterns": ["income tax","what is it?"],
+    "responses": ["It is a tax levied by the Government of India on the income of every person."]
+  },
+     {"tag": "framework",
+    "patterns": ["framework of it?","it framework"],
+    "responses": ["The revenue functions of the Government of India are managed by the Ministry of Finance. "]
+  },
+  {"tag": "Period",
+    "patterns": ["income tax period ?","period of it"],
+    "responses": ["The year under the Income-tax Law is the period starting from 1st April and ending on 31st March of next calendar year. "]
+  },
+    {"tag": "Pay",
+    "patterns": ["who pays income tax","kaun pay karta hai it"],
+    "responses": ["Income-tax is to be paid by every person. The term 'person' as defined under the Income-tax Act under section 2(3) covers in its ambit natural as well as artificial persons. "]
+  },
+     {"tag": "collect",
+    "patterns": ["how govt collects it","govt kaise collect karti hai it"],
+    "responses": ["Taxes are collected by the Government through three means: a) voluntary payment by taxpayers into various designated Banks."]
+  },
+  {"tag": "rates",
+    "patterns": ["tax rate","what is tax rate"],
+    "responses": ["The rates of Income-tax and corporate taxes are available in the Finance Act passed by the Parliament every year."]
+  },
+  {"tag": "challan",
+    "patterns": ["Challan","What is challan"],
+    "responses": ["The tax that is to be paid by the companies on their income is called as corporate tax. Tax paid by non-corporate assessees is called as Income-tax"]
+  },
+  {"tag": "advance",
+    "patterns": ["How is advance tax calculated and paid?","Calc","Calculation","Tax calculation"],
+    "responses":[ "Advance tax is to be calculated on the basis of expected tax liability of the year."]
+  },
+  {"tag": "assessment",
+    "patterns": ["What is tax on regular assessment and how is it paid?","Tax on regular assessment","How to pay?"],
+    "responses":[ "The tax on regular assessment-400 has to be paid within 30 days of receipt of the notice of demand ."]
+  },
+  {"tag": "filling",
+    "patterns":[ "Precautions while filling-up the tax payment challan?\n","Precautions","Necessary steps"],
+    "responses":[ "Head of payment, Type of payment\n Assessment year"]
+  },
+  {"tag": "Banker",
+    "patterns":[ "proof of payment from the Banker to whom I have submitted the challan?","Proof"],
+    "responses":[ "Challan filled by taxpayers, should be stamped and returned by the bank."]
+  },
+  {"tag": "received",
+    "patterns": ["How can I know that the Government has received the amount deposited by me as taxes in the bank?","Success"],
+    "responses":[ "The NSDL website [http://www.tin-nsdl.com], then Challan Status Enquiry."]
+  },
+  {"tag": "response",
+    "patterns": ["Is my responsibility under the Income-tax Act over once taxes are paid?","Responsibility over?"],
+    "responses":[ "No, check for tax credits available in your tax credit statement and TDS/TCS certificates"]
+  },
+  {"tag": "Officer",
+    "patterns": ["Assessing Officer?","AO?"],
+    "responses": ["An officer of the Income-tax Department who has been given jurisdiction over a particular geographical area."]
+  },
+  {"tag": "con",
+    "patterns":[ " What constitutes income?","Income?"],
+    "responses": ["A salaried person all that is received from an employer in cash."]
+  },
+  {"tag": "exempt",
+    "patterns": ["exempt income?\n","Taxable Income"],
+    "responses":[ "An exempt income is not charged to tax"]
+  },
+  {"tag": "receipt",
+    "patterns":[ "What is revenue receipt?\n ","Revenue Receipt?"],
+    "responses":[ "Revenue receipts are recurring in nature. \n"]
+  },
+  {"tag": "charged",
+    "patterns":[ "Are all receipts charged to tax?\n","receipts charged?"],
+    "responses":[ "It is that all revenue receipts are taxable, unless they are specifically granted exemption from tax"]
+  },
+  {"tag": "proof",
+    "patterns": ["proof of earnings?","Proof to earn?"],
+    "responses":[ "You have to maintain proof of earning and the records."]
+  },
+  {"tag": "prize",
+    "patterns":[ "If I win a lottery or prize money in a competition, am I required to pay Income-tax on it?","Lottery tax?"],
+    "responses": ["Yes"]
+  },
+  {"tag": "abroad",
+    "patterns": ["If my income is taxed in India as well as abroad, relief on double taxation?\n","Double taxation relief?"],
+    "responses":[ "Yes, you can claim relief."]
+  },
+  {"tag": "RCM",
+    "patterns":[ "Does aggregate turnover include value of inward supplies received on which RCM is payable?","RCM payable","RCM"],
+    "responses":[ "Not on reverse charge basis."]
+  },
+  {"tag": "liable",
+    "patterns":[ "Inter State supply from one state. Is it liable for registration? ","Interstate tax?","Inter-State?"],
+    "responses":[ "Yes, if aggregate turnover is more than 20 lacs."]
+  },
+  {"tag": "GSTIN",
+    "patterns":[ "Can we use provisional GSTIN or do we get new GSTIN?","Provisional GSTIN","New GSTIN?"],
+    "responses":[ "Yes, provisional GSTIN can be used till final GSTIN is issued."]
+  },
+  {"tag": "VAT",
+    "patterns":[ "Whether trader of country liquor is required to migrate to GST from VAT as liquor is out of GST law? "],
+    "responses":[ "If the person is involved in 100% supply of goods which are not liable for GST, then no registration is required."]
+  },
+  {"tag": "supply",
+    "patterns":[ "Not liable to tax as mentioned u/s 23 of CGST means nil rated supply? ","nil rated supply?"],
+    "responses": ["Not liable to tax means supplies which is not leviable to tax under the CGST/SGST/IGST Act."]
+      },
+
+  {"tag": "SEZ",
+    "patterns": ["If there are two SEZ units within same state, whether two registrations are required? ","Two registrations?"],
+    "responses": ["SEZs under same PAN in a state require one registration."]
+  },
+  {"tag": "advocate",
+    "patterns":[ "Is an advocate providing interstate supply chargeable for registration? ","Interstate chargeable?","Inter state charge?"],
+    "responses": ["Exemption from registration has been provided to such suppliers who are making only those supplies on which recipient is liable to discharge GST under RCM. "]
+  },
+  {"tag": "state",
+    "patterns":[ "When is registration in other state required?","Registration other state?","registration"],
+    "responses":[ "IGST to be paid on inter-state supplies. "]
+  },
+  {"tag": "migrated",
+    "patterns":[ "I have migrated under GST but want to register as ISD. Can I can apply now & what is the procedure? ","Migrated"],
+    "responses":[ "A separate & new registration is required for ISD."]
+  }
+
+  ]
+
+}
