@@ -31,7 +31,7 @@ Features
 :prince:
 
 [Riya Sisodia](https://github.com/Rrs-4817)
-:trollface:
+:relieved:
 
 [Aditya Singh](https://github.com/As-anonymus)
 :man_judge:
